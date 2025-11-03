@@ -1,0 +1,86 @@
+1. **Power BI Desktop vs Online Service:**
+
+   * **Desktop:** report creation tool (build, model, visualize data).
+   * **Online Service:** for sharing, collaboration, and cloud-based management.
+
+2. **Publishing a Report:**
+
+   * Click **Home → Publish** in Power BI Desktop → choose a **workspace** in the service.
+
+3. **Workspace:**
+
+   * A collaborative area to store and manage reports, datasets, and dashboards.
+   * **Types:** *My Workspace* (personal) and *Shared/Professional Workspaces* (team-based).
+
+4. **Workspace vs App:**
+
+   * **Workspace:** for building and collaboration.
+   * **App:** read-only packaged content shared with end users.
+
+5. **License Types:**
+
+   * **Free:** limited to personal use.
+   * **Pro:** needed for sharing and collaboration.
+   * **Premium:** for large-scale use, advanced features, and capacity-based sharing.
+
+6. **Sharing Without Pro License:**
+
+   * Publish to a **Premium workspace** — viewers with Free licenses can access.
+
+7. **Semantic Model (Dataset):**
+
+   * Central data model used by reports; stored in **Power BI Service workspace**.
+
+8. **Scheduled Refresh:**
+
+   * Automatically updates datasets on a set schedule (e.g., daily/hourly) in the Service.
+
+9. **Dataset vs Dataflow:**
+
+   * **Dataset:** ready-to-use data model for reports.
+   * **Dataflow:** ETL process to prepare/reuse data across multiple datasets.
+
+10. **Use Dataflow Instead of Dataset:**
+
+    * When you need **centralized, reusable data transformations** for multiple reports.
+
+11. **Dashboard:**
+
+    * A single-page summary view with pinned visuals from reports.
+    * **Reports** are multi-page and interactive; **dashboards** are not.
+
+12. **Pin Visual to Dashboard:**
+
+    * In a report → click the **Pin icon** → choose a dashboard destination.
+
+13. **Mobile View:**
+
+    * Optimized layout for phone/tablet viewing; improves accessibility and usability.
+
+14. **Paginated Report:**
+
+    * Pixel-perfect, print-ready reports; used for invoices or long tables.
+
+15. **Export to PDF/PowerPoint:**
+
+    * In Power BI Service → **File → Export → PDF/PPT**.
+
+16. **Live Connection:**
+
+    * Report connects directly to a published dataset or Analysis Services model (no data copy).
+
+17. **Row-Level Security (RLS):**
+
+    * Restricts data access per user role; defined in Desktop and enforced in Service.
+
+18. **Testing RLS:**
+
+    * In Service → Dataset → **Security → Test as role**.
+
+19. **Apps:**
+
+    * Packaged dashboards/reports from a workspace shared with users; publish via **“Publish app”** button.
+
+20. **Enterprise Benefits:**
+
+    * Centralized data, collaboration, security (RLS), auto-refresh, versioning, and scalability.
